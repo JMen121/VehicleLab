@@ -4,7 +4,7 @@ public class Car extends Vehicle {
     private boolean electric;
 
     public Car (boolean automatic, boolean electric){
-        super();
+        super("Benz",4,4, true,"petrol");
         this.automatic= automatic;
         this.electric= electric;
     }

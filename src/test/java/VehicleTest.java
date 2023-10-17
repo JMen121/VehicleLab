@@ -11,14 +11,13 @@ public class VehicleTest {
 
     @BeforeEach
     void setUp(){
-        vehicle = new Vehicle("Audi", 4,
-                5, true, "Petrol")
+        vehicle = new Motorcycle(2);
         };
-    }
+
 
     @Test
     public void canAddPassengers() {
-        assertThat(vehicle.addPassenger(20)).isEqualTo(25);
+        assertThat(vehicle.addPassenger(20)).isEqualTo(22);
     }
 
 
