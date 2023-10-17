@@ -7,5 +7,12 @@ public class Plane {
     }
 
 
+    //adding tvs
+    //I want to add the same amount of tvs as the amount of passengers
+
+    public int totalTvs (int numberOfPassenger, int addTv){
+        int totalTVs = numberOfPassenger + addTv;
+        return totalTVs;
+    }
     
 }

@@ -10,10 +10,10 @@ public class VehicleTest {
 
 
     @BeforeEach
-
     void setUp(){
         vehicle = new Vehicle("Audi", 4,
-                5,true,"Petrol");
+                5, true, "Petrol")
+        };
     }
 
     @Test

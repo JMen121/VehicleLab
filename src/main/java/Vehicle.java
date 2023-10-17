@@ -1,6 +1,5 @@
 
-
-public class Vehicle {
+public abstract class Vehicle {
 
     private String brandName;
 
@@ -24,7 +23,7 @@ public class Vehicle {
 
 
     public int addPassenger(int addingPassenger){
-    int newTotalPassengers= this.numberOfPassengers + addingPassenger;
+    int newTotalPassengers= this.numberOfPassengers += addingPassenger;
         return newTotalPassengers;
     }
 }
