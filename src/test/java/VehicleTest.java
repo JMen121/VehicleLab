@@ -16,12 +16,13 @@ public class VehicleTest {
                 5,true,"Petrol");
     }
 
+    @Test
     public void canAddPassengers() {
-        assertThat(vehicle.addPassenger()).isEqualTo("20");
+        assertThat(vehicle.addPassenger(20)).isEqualTo(25);
     }
 
 
-//max passenger property
+
 
 
 

@@ -1,4 +1,4 @@
-import org.junit.Test;
+
 
 public class Vehicle {
 
@@ -18,11 +18,13 @@ public class Vehicle {
         this.numberOfWheels = numberOfWheels;
         this.numberOfPassengers = numberOfPassengers;
         this.publicTransport = publicTransport;
+        this.fuelType = fuelType;
     }
 
 
-    public int addPassenger(){  
-     int newTotalPassengers= this.numberOfPassengers + addPassenger();
+
+    public int addPassenger(int addingPassenger){
+    int newTotalPassengers= this.numberOfPassengers + addingPassenger;
         return newTotalPassengers;
     }
 }
