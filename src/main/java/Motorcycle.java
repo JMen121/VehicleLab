@@ -7,7 +7,7 @@ public class Motorcycle extends Vehicle{
     }
 
 
-    public String addcolour(String colour){
+    public String addColour(String colour){
         return "colour added" + colour;
     }
 }

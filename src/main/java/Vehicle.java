@@ -21,7 +21,6 @@ public abstract class Vehicle {
     }
 
 
-
     public int addPassenger(int addingPassenger){
     int newTotalPassengers= this.numberOfPassengers += addingPassenger;
         return newTotalPassengers;
