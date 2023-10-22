@@ -14,6 +14,10 @@ public class Car extends Vehicle {
          return "colour added" + colour;
     }
 
-
+    @Override
+    public String makeEngineNoise() {
+        return "My noise is vrrroomm!";
+    }
+    //Example of method override - has been override in the vehicle.java methods
 }
 

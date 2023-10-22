@@ -15,8 +15,8 @@ public class CarTest {
 
     @Test
     public void canAddColour(){
-     String result = car.addColour("pink");
-     assertThat(result).isEqualTo("colour added");
+     String result = car.addColour(" pink");
+     assertThat(result).isEqualTo("colour added pink");
     }
 
 

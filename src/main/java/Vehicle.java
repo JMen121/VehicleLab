@@ -20,9 +20,13 @@ public abstract class Vehicle {
         this.fuelType = fuelType;
     }
 
-
     public int addPassenger(int addingPassenger){
     int newTotalPassengers= this.numberOfPassengers += addingPassenger;
         return newTotalPassengers;
     }
+    public String makeEngineNoise(){
+        return "My noise is big and scary!";
+    }
+
+    public abstract boolean beepHorn();
 }
