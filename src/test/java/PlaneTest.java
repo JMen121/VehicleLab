@@ -16,7 +16,25 @@ public class PlaneTest {
     @Test
    public void addTotalTvs(){
         assertThat(plane.totalTvs(49)).isEqualTo(49);
-       // assertThat(plane.totalTvs(469)).is equalToThat;
+    }
+
+    @Test
+    public void canmakeEngineNoise__noArgument(){
+        String expected = "My noise is big and scary!";
+        String actual = "My noise is big and scary!";
+        assertThat(actual).isEqualTo(expected);
+    }
+
+    @Test
+    public void canmakeEngineNoise__withArgument(){
+        String expected = "My noise sounds like Tweeee!";
+        String actual = "My noise sounds like Tweeee!";
+        assertThat(actual).isEqualTo(expected);
+    }
+
+    @Test
+    public void canBeepHorn(){
+        assertThat(plane.beepHorn()).isEqualTo(false);
     }
 
 

@@ -21,13 +21,13 @@ public class Plane extends Vehicle {
 
     public int totalTvs(int numberOfPassengers) {
         this.tv = numberOfPassengers;
-        return numberOfPassengers;
-    }
+        return numberOfPassengers;}
+
 
     @Override
-    public String makeEngineNoise() {
+    public String makeEngineNoise(){
         return "My noise sounds like Tweeee!";
-    }
+        }
 
     @Override
     public boolean beepHorn() {
