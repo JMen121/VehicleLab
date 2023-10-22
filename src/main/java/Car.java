@@ -19,5 +19,10 @@ public class Car extends Vehicle {
         return "My noise is vrrroomm!";
     }
     //Example of method override - has been override in the vehicle.java methods
+
+    @Override
+    public boolean beepHorn() {
+        return true;
+    }
 }
 

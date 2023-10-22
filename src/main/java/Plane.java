@@ -28,4 +28,9 @@ public class Plane extends Vehicle {
     public String makeEngineNoise() {
         return "My noise sounds like Tweeee!";
     }
+
+    @Override
+    public boolean beepHorn() {
+        return false;
+    }
 }
