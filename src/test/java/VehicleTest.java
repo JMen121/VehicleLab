@@ -25,5 +25,10 @@ public class VehicleTest {
     void makeEngineNoise() { assertThat(vehicle.makeEngineNoise()).isEqualTo("My noise is big and scary!");
     }
 
+    @Test
+    void canBeepHorn () {
+        assertThat(vehicle.beepHorn()).isEqualTo(true);
+    }
+
 
 }
